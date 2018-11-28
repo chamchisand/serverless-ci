@@ -1,0 +1,22 @@
+env:
+  es6: true
+  node: true
+extends:
+  - eslint:recommended
+parserOptions:
+  ecmaVersion: 2017
+  sourceType: module
+  ecmaFeatures:
+    classes: true
+    experimentalObjectRestSpread: true
+rules:
+  indent: [ error, 2 ]
+  linebreak-style: [ error, unix ]
+  no-mixed-spaces-and-tabs: error
+  space-before-blocks: error
+  arrow-spacing: error
+  brace-style: [ error, '1tbs' ]
+  comma-spacing: [ error, { before: false, after: true } ]
+  comma-style: [ error, last, { exceptions: { VariableDeclaration: true } } ]
+  computed-property-spacing: [ error, never ]
+  no-console: off
