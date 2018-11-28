@@ -4,7 +4,7 @@
   "description": "serverless ci",
   "scripts": {
     "test": "jest",
-    "build": "serverless deploy"
+    "build": "serverless deploy -v"
   },
   "license": "ISC",
   "dependencies": {
