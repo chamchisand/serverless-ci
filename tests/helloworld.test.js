@@ -1,10 +1,11 @@
 const AWS = require('aws-sdk')
+const lambda = new AWS.Lambda()
 
-const lambda = new AWS.Lambda({
-  accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-  secretAccessKey: process.env.AWS_SECRET_KEY,
-  region: process.env.AWS_REGION
-});
+// const lambda = new AWS.Lambda({
+//   accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+//   secretAccessKey: process.env.AWS_SECRET_KEY,
+//   region: process.env.AWS_REGION
+// });
 
 it('expect Jack Doe', async () => {
 
