@@ -7,5 +7,5 @@ it('expect Jack Doe', async () => {
   const payload = await handler.helloworld({ name })
 
   expect(payload).toBeDefined()
-  expect(payload).toContain('ddddddddd')
+  expect(payload).toContain(name)
 });
