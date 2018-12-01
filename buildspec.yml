@@ -3,7 +3,6 @@ version: 0.2
 phases:
   install:
     commands:
-      - cd nested
       - npm install
   build:
     commands:
