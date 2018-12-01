@@ -1,8 +1,7 @@
 
-it('expect Jack Doe', async () => {
+it('expect something!', async () => {
 
-  const name = 'Jack Doe'
-
+  const name = 'Nested'
   const handler = require('../handler')
   const payload = await handler.helloworld({ name })
 
