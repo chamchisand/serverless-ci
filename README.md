@@ -1,6 +1,6 @@
 # serverless-ci
 
-**Nested** ![Travis](https://travis-ci.org/chamchisand/serverless-ci.svg?branch=travis)
+![Nested](https://travis-ci.org/chamchisand/serverless-ci.svg?branch=travis)
 
 [![CircleCI](https://circleci.com/gh/chamchisand/serverless-ci.svg?style=svg)](https://circleci.com/gh/chamchisand/serverless-ci)
 
